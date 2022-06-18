@@ -10,6 +10,7 @@
     "@types/node": "^16.11.41",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
+    "cypress": "^10.1.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-jest-dom": "^4.0.2",
     "eslint-plugin-testing-library": "^5.5.1",
