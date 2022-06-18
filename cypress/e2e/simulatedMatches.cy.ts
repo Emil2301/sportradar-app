@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+const TIME_TO_SCORE_ONE_GOAL_IN_MS = 10000;
 
 describe('simulated Matches app', () => {
   beforeEach(() => {
@@ -15,7 +16,7 @@ describe('simulated Matches app', () => {
 
   it('shows "Start" button, after clicking it and waiting 90 seconds, it shows total goals of 9 and button with text "Restart"', () => {
     cy.contains('Total goals: 0');
-    cy.tick(90000);
+    cy.tick(9 * TIME_TO_SCORE_ONE_GOAL_IN_MS);
     cy.contains('Total goals: 9');
     cy.contains('Restart').click();
     cy.contains('Finish');
@@ -27,12 +28,12 @@ describe('simulated Matches app', () => {
   });
 
   it('shows "Start" button, after clicking it simulation starts, after 30 seconds, total goals indicates 3', () => {
-    cy.tick(30000);
+    cy.tick(3 * TIME_TO_SCORE_ONE_GOAL_IN_MS);
     cy.contains('Total goals: 3');
   });
 
   it('shows "Start" button, after clicking it simulation starts, after 10 seconds, one of teams has one goal scored', () => {
-    cy.tick(10000);
+    cy.tick(TIME_TO_SCORE_ONE_GOAL_IN_MS);
     cy.contains('p', 1);
   });
 });
