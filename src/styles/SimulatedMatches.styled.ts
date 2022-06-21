@@ -19,3 +19,9 @@ export const StyledMatch = styled.div`
   justify-content: space-between;
   padding: 0;
 `;
+
+export const StyledTotalGoals = styled.div`
+  margin: 1rem;
+  align-self: flex-end;
+  font-size: 1rem;
+`;
