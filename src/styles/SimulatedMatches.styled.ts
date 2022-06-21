@@ -42,6 +42,7 @@ export const StyledBox = styled.div`
   flex-direction: column;
   width: 20%;
   margin: 0 auto;
+  border: 0.08rem solid black;
 `;
 
 export const Container = styled.div`
