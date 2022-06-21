@@ -25,3 +25,13 @@ export const StyledTotalGoals = styled.div`
   align-self: flex-end;
   font-size: 1rem;
 `;
+
+export const StyledButton = styled.button`
+  margin: 1rem auto;
+  background-color: #ffffff;
+  width: 7rem;
+  border: 0.1rem solid gray;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0;
+  font-size: 1rem;
+`;
