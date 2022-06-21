@@ -35,3 +35,11 @@ export const StyledButton = styled.button`
   padding: 0.2rem 0;
   font-size: 1rem;
 `;
+
+export const StyledBox = styled.div`
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0 auto;
+`;
