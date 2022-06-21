@@ -13,3 +13,9 @@ export const StyledTeams = styled.div`
     margin: 0.3rem;
   }
 `;
+
+export const StyledMatch = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+`;

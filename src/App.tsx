@@ -1,14 +1,15 @@
 import React from 'react';
-import Score from './pages/simulatedMatches/components/Score/Score';
-import Teams from './pages/simulatedMatches/components/Teams/Teams';
+import Match from './pages/simulatedMatches/components/Match/Match';
 import GlobalStyles from './styles/Global';
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <Score firstTeamGoalsScored={1} secondTeamGoalsScored={2} />
-      <Teams firstTeamName="Poland" secondTeamName="Germany" />
+      <Match
+        host={{ name: 'Poland', scoredGoals: 2 }}
+        guest={{ name: 'Germany', scoredGoals: 3 }}
+      />
     </>
   );
 }
