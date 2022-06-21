@@ -1,15 +1,14 @@
-import React from 'react';
-import Match from './pages/simulatedMatches/components/Match/Match';
+import Box from './pages/simulatedMatches/components/Box/Box';
+import { Container } from './styles/SimulatedMatches.styled';
 import GlobalStyles from './styles/Global';
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <Match
-        host={{ name: 'Poland', scoredGoals: 2 }}
-        guest={{ name: 'Germany', scoredGoals: 3 }}
-      />
+      <Container>
+        <Box />
+      </Container>
     </>
   );
 }

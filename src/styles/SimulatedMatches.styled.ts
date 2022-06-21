@@ -43,3 +43,9 @@ export const StyledBox = styled.div`
   width: 20%;
   margin: 0 auto;
 `;
+
+export const Container = styled.div`
+  width: 100%;
+  background: #e5e5e5;
+  font-size: 1.2rem;
+`;
