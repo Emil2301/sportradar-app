@@ -27,10 +27,10 @@ Project is created with:
 * Prettier
 	
 ## Setup
-Clone project, install dependencies with **npm install** in **sportradar-frontend** directory, and from there run **npm start**. Then navigate to http://localhost:3000/.
+Clone project, install dependencies with **npm install** in **sportradar-app** directory, and from there run **npm start**. Then navigate to http://localhost:3000/.
 
-To run all unit tests, in **sportradar-frontend** run **npm test**.
+To run all unit tests, in **sportradar-app** run **npm test**.
 
-To run e2e tests, in **sportradar-frontend** run **npx cypress open**, in newly browser tab click on **E2E Testing**, then choose Chrome and click **Start E2E Testing in Chrome**. In newly opened Chrome tab click on **simulatedMatches.cy.ts** and you will see e2e tests running. You need to have app running on http://localhost:3000/ with **npm start** to run e2e tests. 
+To run e2e tests, in **sportradar-app** run **npx cypress open**, in newly browser tab click on **E2E Testing**, then choose Chrome and click **Start E2E Testing in Chrome**. In newly opened Chrome tab click on **simulatedMatches.cy.ts** and you will see e2e tests running. You need to have app running on http://localhost:3000/ with **npm start** to run e2e tests. 
 
 
